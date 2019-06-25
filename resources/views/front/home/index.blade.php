@@ -198,7 +198,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Coach slim easton black
                                 </a>
 
@@ -231,7 +231,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Denim jacket blue
                                 </a>
 
@@ -264,7 +264,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Coach slim easton black
                                 </a>
 
@@ -299,7 +299,7 @@
                         </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Frayed denim shorts
                                 </a>
 
@@ -336,7 +336,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Herschel supply co 25l
                                 </a>
 
@@ -369,7 +369,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Denim jacket blue
                                 </a>
 
@@ -402,7 +402,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Coach slim easton black
                                 </a>
 
@@ -435,7 +435,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="{{ route('front_detailproduct') }}" class="block2-name dis-block s-text3 p-b-5">
                                     Frayed denim shorts
                                 </a>
 
@@ -468,13 +468,13 @@
                 <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
                     <!-- Block3 -->
                     <div class="block3">
-                        <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
+                        <a href="{{ route('front_blog') }}" class="block3-img dis-block hov-img-zoom">
                             <img src="images/blog-01.jpg" alt="IMG-BLOG">
                         </a>
 
                         <div class="block3-txt p-t-14">
                             <h4 class="p-b-7">
-                                <a href="blog-detail.html" class="m-text11">
+                                <a href="{{ route('front_blog') }}" class="m-text11">
                                     Black Friday Guide: Best Sales & Discount Codes
                                 </a>
                             </h4>
@@ -492,13 +492,13 @@
                 <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
                     <!-- Block3 -->
                     <div class="block3">
-                        <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
+                        <a href="{{ route('front_blog') }}" class="block3-img dis-block hov-img-zoom">
                             <img src="images/blog-02.jpg" alt="IMG-BLOG">
                         </a>
 
                         <div class="block3-txt p-t-14">
                             <h4 class="p-b-7">
-                                <a href="blog-detail.html" class="m-text11">
+                                <a href="{{ route('front_blog') }}" class="m-text11">
                                     The White Sneakers Nearly Every Fashion Girls Own
                                 </a>
                             </h4>
@@ -516,13 +516,13 @@
                 <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
                     <!-- Block3 -->
                     <div class="block3">
-                        <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
+                        <a href="{{ route('front_blog') }}" class="block3-img dis-block hov-img-zoom">
                             <img src="images/blog-03.jpg" alt="IMG-BLOG">
                         </a>
 
                         <div class="block3-txt p-t-14">
                             <h4 class="p-b-7">
-                                <a href="blog-detail.html" class="m-text11">
+                                <a href="{{ route('front_blog') }}" class="m-text11">
                                     New York SS 2018 Street Style: Annina Mislin
                                 </a>
                             </h4>

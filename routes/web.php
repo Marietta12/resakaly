@@ -14,9 +14,14 @@
 /*Front route start*/
 Route::get('/', function () {
     return view('front.home.index');
-});
+})->name('home');
 Route::namespace('Front')->group(function () {
     Route::get('/product', 'ProductController@index')->name('front_product');
+    Route::get('/detail_product', 'ProductController@detailproduct')->name('front_detailproduct');
+    Route::get('/blog', 'BlogController@index')->name('front_blog');
+    Route::get('/contact', 'ContactController@index')->name('front_contact');
+    Route::get('/about', 'AboutController@index')->name('front_about');
+
 });
 /*Front route end*/
 

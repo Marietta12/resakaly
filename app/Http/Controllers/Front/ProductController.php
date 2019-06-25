@@ -12,7 +12,7 @@ class ProductController extends Controller
     	return view('front.product.index');
     }
 
-    public function productDetail()
+    public function detailProduct()
     {
     	return view('front.product.detailproduct');
     }

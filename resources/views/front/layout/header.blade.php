@@ -48,15 +48,15 @@
 						</li>
 
 						<li>
-							<a href="blog.html">Blog</a>
+							<a href="{{ route('front_blog') }}">Blog</a>
 						</li>
 
 						<li>
-							<a href="about.html">A propos</a>
+							<a href="{{ route('front_about') }}">A propos</a>
 						</li>
 
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="{{ route('front_contact') }}">Contact</a>
 						</li>
 					</ul>
 				</nav>
@@ -190,27 +190,23 @@
 				<nav class="menu">
 					<ul class="main_menu">
 						<li>
-							<a href="{{ url('/') }}">Accueil</a>
+							<a href="{{ route('home') }}">Accueil</a>
 						</li>
 
 						<li>
 							<a href="{{ route('front_product') }}">Produit</a>
 						</li>
-
-						<!-- <li>
-							<a href="cart.html">Blog</a>
-						</li> -->
-
+						
 						<li>
-							<a href="blog.html">Blog</a>
+							<a href="{{ route('front_blog') }}">Blog</a>
 						</li>
 
 						<li>
-							<a href="about.html">A propos</a>
+							<a href="{{ route('front_about') }}">A propos</a>
 						</li>
 
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="{{ route('front_contact') }}">Contact</a>
 						</li>
 					</ul>
 				</nav>

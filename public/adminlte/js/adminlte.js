@@ -10,7 +10,6 @@
 * @repository git://github.com/ColorlibHQ/AdminLTE.git
 * @license MIT <http://opensource.org/licenses/MIT>
 */
-
 // Make sure jQuery has been loaded
 if (typeof jQuery === 'undefined') {
 throw new Error('AdminLTE requires jQuery')

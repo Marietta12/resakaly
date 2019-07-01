@@ -32,7 +32,7 @@
         <li class="header">MENU</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Catégories</span></a></li>
+        <li><a href="{{ route('back_categories') }}"><i class="fa fa-link"></i> <span>Catégories</span></a></li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Produit</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Commande</span>

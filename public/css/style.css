@@ -1,0 +1,12 @@
+.titre{
+	text-align: center;
+}
+.m-t-10{
+	margin-top: 10px;
+}
+.formulaire{
+	display: flex;
+justify-content:center;
+flex-flow:wrap-reverse column;
+align-content:center;
+}

@@ -23,12 +23,22 @@ Route::namespace('Front')->group(function () {
     Route::get('/about', 'AboutController@index')->name('front_about');
 
 });
+
+/*Back route*/
+Route::namespace('Back')->group(function() {
+	Route::get('/categories', 'CategoriesController@index')->name('back_categories');
+	Route::get('/create_categories', 'CategoriesController@create')->name('back_createCategories');
+	Route::post('/store_categories', 'CategoriesController@store')->name('back_storeCategories');
+    Route::get('/edit_categories/{category}', 'CategoriesController@edit')->name('back_editCategories');
+});
 /*Front route end*/
 
-Auth::routes();
+Auth::routes();  
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('admin')->namespace('Back')->group(function(){
 	Route::name('admin')->get('/', 'AdminController@index');
 });
+
+Route::resource('test', 'Back\TestController');

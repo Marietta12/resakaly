@@ -14,7 +14,7 @@
 	<br>
 	<form action="" method="post">
 		<input type="hidden" name="_token" value="{{csrf_token()}}">
-		<input type="hidden" name="_method" value="PUT">
+		<input type="hidden" name="_method" value="">
 		<div class="row">
 			<div class="col-xs- col-sm-6 col-md-6">
 				<div class="form-group{{$errors->has('titre')?' has-error':''}}">

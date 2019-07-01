@@ -39,6 +39,15 @@ class CategoriesController extends Controller
     }
 
     public function update(Request $request){
+        
+        $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'photo' => 'required',
+        ]);
+
+        categorie::find($id)->update($request->all());
+        return redirect()->route('back_categories');
 
     }
 

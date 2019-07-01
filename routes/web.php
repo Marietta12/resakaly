@@ -30,6 +30,7 @@ Route::namespace('Back')->group(function() {
 	Route::get('/create_categories', 'CategoriesController@create')->name('back_createCategories');
 	Route::post('/store_categories', 'CategoriesController@store')->name('back_storeCategories');
     Route::get('/edit_categories/{category}', 'CategoriesController@edit')->name('back_editCategories');
+    Route::get('/update_categories/{category}', 'CategoriesController@update')->name('back_updateCategories');
 });
 /*Front route end*/
 
